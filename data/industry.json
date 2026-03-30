@@ -1,0 +1,33 @@
+{
+  "autoSupplyChain": {
+    "nodes": ["China", "Südkorea", "Japan", "USA", "EU"],
+    "components": ["Batteriezellen", "Elektronik", "Permanentmagnete", "Rohstoffe", "Halbleiter"],
+    "flows": [
+      { "from": "China", "to": "Batteriezellen", "value": 78 },
+      { "from": "China", "to": "Elektronik", "value": 42 },
+      { "from": "China", "to": "Permanentmagnete", "value": 92 },
+      { "from": "China", "to": "Rohstoffe", "value": 68 },
+      { "from": "Südkorea", "to": "Batteriezellen", "value": 15 },
+      { "from": "Südkorea", "to": "Halbleiter", "value": 22 },
+      { "from": "Japan", "to": "Elektronik", "value": 18 },
+      { "from": "Japan", "to": "Halbleiter", "value": 15 },
+      { "from": "USA", "to": "Halbleiter", "value": 25 },
+      { "from": "USA", "to": "Elektronik", "value": 10 },
+      { "from": "EU", "to": "Elektronik", "value": 12 },
+      { "from": "EU", "to": "Batteriezellen", "value": 7 }
+    ]
+  },
+  "chinaShareInSupplyChain": {
+    "batterien": 78,
+    "elektronik": 42,
+    "magnete": 92,
+    "rohstoffe": 68,
+    "gesamt": 55
+  },
+  "exportDependency": {
+    "countries": ["China", "USA", "UK", "Frankreich", "Polen", "Sonstige"],
+    "shares": [21, 15, 8, 12, 7, 37]
+  },
+  "kpiChinaAutoShare": 55,
+  "kpiExportChina": 21
+}

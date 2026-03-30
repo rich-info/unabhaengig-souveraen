@@ -1,0 +1,19 @@
+{
+  "cloudMarketShare": {
+    "providers": ["AWS (USA)", "Microsoft Azure (USA)", "Google Cloud (USA)", "SAP (DE)", "OVHcloud (FR)", "Hetzner (DE)", "Sonstige EU", "Sonstige"],
+    "shares": [32, 23, 11, 3, 2, 1, 4, 24],
+    "usTotal": 66,
+    "euTotal": 10
+  },
+  "enterpriseSoftware": {
+    "vendors": ["Microsoft", "SAP", "Oracle", "Salesforce", "IBM", "Sonstige"],
+    "origin": ["USA", "DE", "USA", "USA", "USA", "Gemischt"],
+    "marketShare": [28, 18, 12, 8, 6, 28]
+  },
+  "publicSectorSoftware": {
+    "categories": ["Betriebssysteme", "Office-Software", "Cloud-Dienste", "Datenbanken", "ERP-Systeme"],
+    "usaDependency": [92, 85, 78, 65, 45]
+  },
+  "kpiCloudUSA": 66,
+  "kpiBetriebssystemeUSA": 92
+}

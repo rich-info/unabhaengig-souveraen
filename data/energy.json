@@ -1,0 +1,33 @@
+{
+  "gasImports": {
+    "years": ["2020", "2021", "2022", "2023", "2024"],
+    "countries": ["Russland", "Norwegen", "Niederlande", "Belgien (LNG)", "USA (LNG)", "Sonstige"],
+    "data": {
+      "Russland":        [55, 52, 22, 0, 0],
+      "Norwegen":        [30, 31, 38, 42, 40],
+      "Niederlande":     [8, 9, 15, 20, 18],
+      "Belgien (LNG)":   [3, 4, 12, 15, 14],
+      "USA (LNG)":       [0, 0, 6, 14, 18],
+      "Sonstige":        [4, 4, 7, 9, 10]
+    }
+  },
+  "oilImports": {
+    "years": ["2020", "2021", "2022", "2023", "2024"],
+    "countries": ["Russland", "Norwegen", "Kasachstan", "USA", "Libyen", "Sonstige"],
+    "data": {
+      "Russland":    [34, 32, 15, 0, 0],
+      "Norwegen":    [12, 13, 18, 22, 24],
+      "Kasachstan":  [10, 10, 18, 22, 20],
+      "USA":         [8, 9, 14, 18, 19],
+      "Libyen":      [8, 7, 9, 10, 10],
+      "Sonstige":    [28, 29, 26, 28, 27]
+    }
+  },
+  "lngSources": {
+    "countries": ["USA", "Katar", "Norwegen", "Nigeria", "Trinidad & Tobago", "Sonstige"],
+    "shares": [56, 14, 12, 8, 4, 6]
+  },
+  "kpiGasRussland2020": 55,
+  "kpiGasRussland2024": 0,
+  "kpiLngUSA": 56
+}

@@ -1,0 +1,20 @@
+{
+  "rareEarths": {
+    "countries": ["China", "Myanmar", "Australien", "USA", "Indien", "Sonstige"],
+    "shares": [65.5, 10, 8, 5, 3.5, 8]
+  },
+  "riskScores": [
+    { "material": "Seltene Erden", "score": 92, "mainSource": "China", "share": 65.5 },
+    { "material": "Lithium", "score": 78, "mainSource": "Australien/Chile", "share": 85 },
+    { "material": "Kobalt", "score": 85, "mainSource": "DR Kongo", "share": 73 },
+    { "material": "Gallium", "score": 95, "mainSource": "China", "share": 98 },
+    { "material": "Germanium", "score": 93, "mainSource": "China", "share": 60 },
+    { "material": "Graphit", "score": 88, "mainSource": "China", "share": 77 },
+    { "material": "Titan", "score": 55, "mainSource": "Südafrika", "share": 35 },
+    { "material": "Wolfram", "score": 90, "mainSource": "China", "share": 82 },
+    { "material": "Magnesium", "score": 94, "mainSource": "China", "share": 90 },
+    { "material": "Silizium", "score": 72, "mainSource": "China", "share": 68 }
+  ],
+  "kpiChinaRareEarths": 65.5,
+  "kpiGalliumChina": 98
+}

@@ -1,0 +1,34 @@
+{
+  "dependencyMatrix": {
+    "countries": ["China", "USA", "Taiwan", "Südkorea", "Japan", "Indien", "Russland"],
+    "categories": ["Halbleiter", "Batterien", "Pharma", "Seltene Erden", "Textil", "Elektronik", "Chemie", "Maschinen"],
+    "scores": [
+      [35, 78, 45, 92, 65, 72, 55, 38],
+      [28, 12, 32, 5,  8,  18, 22, 15],
+      [62, 8,  15, 2,  5,  12, 8,  10],
+      [18, 22, 5,  3,  8,  15, 6,  12],
+      [12, 8,  8,  2,  20, 18, 12, 22],
+      [5,  5,  42, 4,  15, 8,  18, 5],
+      [2,  2,  5,  8,  2,  3,  15, 3]
+    ]
+  },
+  "criticalProducts": [
+    { "product": "Permanentmagnete", "source": "China", "dependency": 94 },
+    { "product": "Gallium & Germanium", "source": "China", "dependency": 98 },
+    { "product": "Antibiotika-Wirkstoffe", "source": "China/Indien", "dependency": 85 },
+    { "product": "Lithium-Ionen-Batterien", "source": "China", "dependency": 78 },
+    { "product": "Hochleistungschips (<7nm)", "source": "Taiwan", "dependency": 92 },
+    { "product": "Solarmodule", "source": "China", "dependency": 88 },
+    { "product": "5G-Netzausrüstung", "source": "China/Schweden", "dependency": 62 },
+    { "product": "Drohnen-Technologie", "source": "China", "dependency": 80 },
+    { "product": "Natürlicher Graphit", "source": "China", "dependency": 77 },
+    { "product": "Wolframkarbid", "source": "China", "dependency": 82 },
+    { "product": "Magnesium", "source": "China", "dependency": 90 },
+    { "product": "Titanoxid", "source": "China", "dependency": 58 },
+    { "product": "LED-Chips", "source": "China/Taiwan", "dependency": 75 },
+    { "product": "Transformatoren-Stahl", "source": "China/Japan", "dependency": 65 },
+    { "product": "Medizinische Schutzausrüstung", "source": "China", "dependency": 72 }
+  ],
+  "kpiCriticalProducts": 200,
+  "kpiOver50Percent": 200
+}
