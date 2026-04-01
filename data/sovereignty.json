@@ -1,0 +1,53 @@
+{
+  "renewableElectricity": {
+    "years": ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
+    "solar":    [7.1,  8.2,  9.3,  8.8, 10.6, 12.1, 13.5, 14.8],
+    "wind":     [17.3, 20.5, 23.5, 19.7, 22.1, 26.8, 28.5, 30.2],
+    "biomasse": [7.1,  7.3,  7.6,  7.5,  7.2,  7.0,  6.8,  6.5],
+    "wasser":   [2.8,  3.0,  3.1,  3.2,  2.8,  3.3,  3.0,  3.1],
+    "fossil":   [49.5, 44.0, 40.0, 46.0, 44.4, 38.5, 36.0, 33.5],
+    "atom":     [11.7, 12.3, 11.3,  11.9,  6.4,  1.5,  0.0,  0.0],
+    "sonstige": [4.5,  4.7,  5.2,  2.9,  6.5, 10.8, 12.2, 11.9],
+    "renewableShareTotal": [34.3, 39.0, 43.5, 39.2, 42.7, 49.2, 51.8, 54.6],
+    "target2030": 80,
+    "currentShare": 54.6
+  },
+  "electricVehicles": {
+    "years":       ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
+    "bevShare":    [1.0,   1.8,   6.7,  13.6,  17.7,  18.4,  16.5,  19.2],
+    "phevShare":   [0.8,   1.3,   3.4,   6.9,   8.2,   6.2,   5.8,   6.5],
+    "totalEVShare":[1.8,   3.1,  10.1,  20.5,  25.9,  24.6,  22.3,  25.7],
+    "bestand": {
+      "years": ["2020", "2021", "2022", "2023", "2024", "2025"],
+      "bev":   [136617, 309083, 618460, 1013009, 1407268, 1750000],
+      "total": [47715977, 48249980, 48541640, 48763036, 49100000, 49300000]
+    },
+    "oilSavingPerEV_liters": 1200,
+    "currentBestandShare": 3.6,
+    "target2030": 15,
+    "oilReductionPotential": 12
+  },
+  "heatPumps": {
+    "years":          ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
+    "installations":  [84000,  86000,  120000, 154000, 236000, 356000, 193000, 220000],
+    "bestandTotal":   [860000, 946000, 1066000, 1220000, 1456000, 1812000, 2005000, 2225000],
+    "heatingMix": {
+      "gas": 49.5,
+      "oel": 24.0,
+      "fernwaerme": 6.5,
+      "waermepumpe": 6.2,
+      "strom_direkt": 4.8,
+      "holz_pellets": 6.0,
+      "sonstige": 3.0
+    },
+    "target2030_bestand": 6000000,
+    "currentBestand": 2225000,
+    "gasReductionPotential": 18
+  },
+  "sovereigntyIndex": {
+    "strom":   { "current": 54.6, "target": 80, "label": "Strom aus Erneuerbaren" },
+    "mobil":   { "current": 3.6,  "target": 15, "label": "E-Auto Bestandsanteil" },
+    "waerme":  { "current": 6.2,  "target": 20, "label": "Wärmepumpen-Anteil Heizungen" },
+    "gesamt":  { "current": 21.5, "target": 38, "label": "Souveränitätsindex Gesamt" }
+  }
+}

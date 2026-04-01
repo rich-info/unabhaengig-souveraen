@@ -128,12 +128,13 @@ document.addEventListener('DOMContentLoaded', async () => {
   animateCounters();
 
   // Load all data in parallel
-  const [energy, rawMaterials, industry, tech, supplyChains] = await Promise.all([
+  const [energy, rawMaterials, industry, tech, supplyChains, sovereignty] = await Promise.all([
     loadJSON('data/energy.json'),
     loadJSON('data/raw_materials.json'),
     loadJSON('data/industry.json'),
     loadJSON('data/tech.json'),
-    loadJSON('data/supply_chains.json')
+    loadJSON('data/supply_chains.json'),
+    loadJSON('data/sovereignty.json')
   ]);
 
   // Initialize charts
@@ -142,4 +143,5 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (industry) initIndustryCharts(industry);
   if (tech) initTechCharts(tech);
   if (supplyChains) initSupplyChainCharts(supplyChains);
+  if (sovereignty) initSovereigntyCharts(sovereignty);
 });

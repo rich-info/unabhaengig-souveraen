@@ -28,6 +28,7 @@
           <li class="nav-item"><a class="nav-link" href="#industrie">Industrie</a></li>
           <li class="nav-item"><a class="nav-link" href="#technologie">Technologie</a></li>
           <li class="nav-item"><a class="nav-link" href="#lieferketten">Lieferketten</a></li>
+          <li class="nav-item"><a class="nav-link" href="#souveraenitaet">Potenziale</a></li>
           <li class="nav-item"><a class="nav-link dim" href="#methodik">Methodik</a></li>
         </ul>
       </div>
@@ -186,6 +187,42 @@
       </div>
     </section>
 
+    <!-- ═══════════════ SOUVERÄNITÄTSPOTENZIALE ═══════════════ -->
+    <section id="souveraenitaet" class="mb-5 fade-up">
+      <div class="section-line" style="background: var(--green);"></div>
+      <h2 class="section-title h4">Souveränitätspotenziale</h2>
+      <p class="section-desc mb-4">Wege aus der Abhängigkeit – Fortschritt bei erneuerbaren Energien, Elektromobilität und Wärmewende</p>
+
+      <!-- Souveränitäts-Fortschrittsanzeigen -->
+      <div class="sov-grid mb-4" id="sovereignty-gauges"></div>
+
+      <!-- Erneuerbare Energien Zeitverlauf -->
+      <div class="card-dark p-3 p-md-4 mb-3">
+        <div class="chart-wrap"><canvas id="chart-renewable"></canvas></div>
+      </div>
+
+      <div class="row g-3 mb-3">
+        <!-- E-Autos -->
+        <div class="col-md-6">
+          <div class="card-dark p-3 p-md-4">
+            <div class="chart-wrap"><canvas id="chart-ev"></canvas></div>
+          </div>
+        </div>
+        <!-- Heizungsmix -->
+        <div class="col-md-6">
+          <div class="card-dark p-3 p-md-4">
+            <div class="card-title-sm">Heizungsmix in deutschen Wohngebäuden</div>
+            <div class="chart-wrap"><canvas id="chart-heating"></canvas></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wärmepumpen Zeitverlauf -->
+      <div class="card-dark p-3 p-md-4">
+        <div class="chart-wrap"><canvas id="chart-heatpump-timeline"></canvas></div>
+      </div>
+    </section>
+
     <!-- ═══════════════ METHODIK ═══════════════ -->
     <section id="methodik" class="mb-5 fade-up">
       <div class="card-dark p-4 p-md-5">
@@ -297,6 +334,7 @@
   <script src="charts/industry.js"></script>
   <script src="charts/tech.js"></script>
   <script src="charts/supply_chains.js"></script>
+  <script src="charts/sovereignty.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
